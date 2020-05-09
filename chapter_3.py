@@ -12,6 +12,8 @@ print(imgResize.shape) #but when shape printed, it the reverse
 
 imgCropped = img[0:200,200:500] #first height, second width
 
+#small TIP: in CV2, when using parentheses (width,height), when using square brackets [height,width]
+
 cv2.imshow("image",img)
 cv2.imshow("resized image",imgResize)
 cv2.imshow("cropped",imgCropped)
